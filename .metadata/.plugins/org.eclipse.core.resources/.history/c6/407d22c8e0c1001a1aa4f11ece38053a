@@ -1,0 +1,5 @@
+spring.datasource.driver-class-name=net.sourceforge.jtds.jdbc.Driver
+ 
+spring.datasource.url=jdbc:jtds:sqlserver://localhost:1433/springbootdb
+spring.datasource.username=admin
+spring.datasource.password=370b6a8f

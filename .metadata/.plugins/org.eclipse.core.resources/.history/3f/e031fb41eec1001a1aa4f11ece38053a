@@ -1,0 +1,4 @@
+spring.datasource.url=jdbc:sqlserver://localhost;databaseName=springbootdb
+spring.datasource.username=admin
+spring.datasource.password=370b6a8f
+spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
