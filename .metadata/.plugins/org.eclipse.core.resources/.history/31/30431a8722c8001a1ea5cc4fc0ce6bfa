@@ -1,0 +1,16 @@
+2020-07-17 12:41:33 [restartedMain] INFO  com.java.project.ProjectApplication - Starting ProjectApplication on DESKTOP-R3NF12T with PID 12380 (C:\Users\asus\Desktop\Stage\project\target\classes started by asus in C:\Users\asus\Desktop\Stage\project)
+2020-07-17 12:41:33 [restartedMain] DEBUG com.java.project.ProjectApplication - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-17 12:41:33 [restartedMain] INFO  com.java.project.ProjectApplication - No active profile set, falling back to default profiles: default
+2020-07-17 12:41:33 [restartedMain] INFO  com.java.project.ProjectApplication - Starting ProjectApplication on DESKTOP-R3NF12T with PID 1632 (C:\Users\asus\Desktop\Stage\project\target\classes started by asus in C:\Users\asus\Desktop\Stage\project)
+2020-07-17 12:41:33 [restartedMain] DEBUG com.java.project.ProjectApplication - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-17 12:41:33 [restartedMain] INFO  com.java.project.ProjectApplication - No active profile set, falling back to default profiles: default
+2020-07-17 12:41:35 [restartedMain] INFO  com.java.project.ProjectApplication - Started ProjectApplication in 2.074 seconds (JVM running for 103.47)
+2020-07-17 12:41:35 [restartedMain] ERROR com.java.project.ProjectApplication - Message logged at ERROR level
+2020-07-17 12:41:35 [restartedMain] WARN  com.java.project.ProjectApplication - Message logged at WARN level
+2020-07-17 12:41:35 [restartedMain] INFO  com.java.project.ProjectApplication - Message logged at INFO level
+2020-07-17 12:41:35 [restartedMain] DEBUG com.java.project.ProjectApplication - Message logged at DEBUG level
+2020-07-17 12:41:42 [restartedMain] INFO  com.java.project.ProjectApplication - Started ProjectApplication in 9.865 seconds (JVM running for 10.907)
+2020-07-17 12:41:42 [restartedMain] ERROR com.java.project.ProjectApplication - Message logged at ERROR level
+2020-07-17 12:41:42 [restartedMain] WARN  com.java.project.ProjectApplication - Message logged at WARN level
+2020-07-17 12:41:42 [restartedMain] INFO  com.java.project.ProjectApplication - Message logged at INFO level
+2020-07-17 12:41:42 [restartedMain] DEBUG com.java.project.ProjectApplication - Message logged at DEBUG level

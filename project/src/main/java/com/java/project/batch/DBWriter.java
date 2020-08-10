@@ -2,6 +2,8 @@ package com.java.project.batch;
 
 import java.util.List;
 
+import org.springframework.batch.item.ExecutionContext;
+import org.springframework.batch.item.ItemStreamException;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -21,4 +23,8 @@ public class DBWriter implements ItemWriter<employee>{
 		System.out.println("Data Saved for Users: " + employees);
 		userRepository.saveAll(employees);
 	}
+	
+	public void update(ExecutionContext executionContext) throws ItemStreamException {
+        System.out.println("ItemCount: "+executionContext.get("FlatFileItemReader.read.count"));
+    }
 }

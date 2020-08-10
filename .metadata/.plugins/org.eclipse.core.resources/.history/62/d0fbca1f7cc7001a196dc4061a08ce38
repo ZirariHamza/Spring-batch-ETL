@@ -1,0 +1,19 @@
+16-07-2020 15:15:11 [restartedMain] ERROR com.java.project.ProjectApplication.main - Message logged at ERROR level
+Your File Header ...
+Your File Header ...
+16:48:45.107 [restartedMain] ERROR com.java.project.ProjectApplication - Message logged at ERROR level
+Your File Header ...
+16:49:33.108 [restartedMain] INFO  com.java.project.ProjectApplication - Starting ProjectApplication on DESKTOP-R3NF12T with PID 10472 (C:\Users\asus\Desktop\Stage\project\target\classes started by asus in C:\Users\asus\Desktop\Stage\project)
+16:49:33.109 [restartedMain] INFO  com.java.project.ProjectApplication - No active profile set, falling back to default profiles: default
+16:49:34.246 [restartedMain] INFO  com.java.project.ProjectApplication - Started ProjectApplication in 1.239 seconds (JVM running for 60.867)
+16:49:34.519 [restartedMain] ERROR com.java.project.ProjectApplication - Message logged at ERROR level
+16:49:34.520 [restartedMain] WARN  com.java.project.ProjectApplication - Message logged at WARN level
+16:49:34.520 [restartedMain] INFO  com.java.project.ProjectApplication - Message logged at INFO level
+Your File Header ...
+Your File Header ...
+16:49:48.195 [restartedMain] INFO  com.java.project.ProjectApplication - Starting ProjectApplication on DESKTOP-R3NF12T with PID 9020 (C:\Users\asus\Desktop\Stage\project\target\classes started by asus in C:\Users\asus\Desktop\Stage\project)
+16:49:48.199 [restartedMain] INFO  com.java.project.ProjectApplication - No active profile set, falling back to default profiles: default
+16:49:57.037 [restartedMain] INFO  com.java.project.ProjectApplication - Started ProjectApplication in 9.411 seconds (JVM running for 10.35)
+16:49:57.844 [restartedMain] ERROR com.java.project.ProjectApplication - Message logged at ERROR level
+16:49:57.845 [restartedMain] WARN  com.java.project.ProjectApplication - Message logged at WARN level
+16:49:57.845 [restartedMain] INFO  com.java.project.ProjectApplication - Message logged at INFO level

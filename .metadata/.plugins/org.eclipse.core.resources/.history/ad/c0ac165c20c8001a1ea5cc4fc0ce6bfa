@@ -1,0 +1,24 @@
+2020-07-16 18:50:27 INFO Starting ProjectApplication on DESKTOP-R3NF12T with PID 7660 (C:\Users\asus\Desktop\Stage\project\target\classes started by asus in C:\Users\asus\Desktop\Stage\project)
+2020-07-16 18:50:27 DEBUG Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-16 18:50:27 INFO No active profile set, falling back to default profiles: default
+2020-07-16 18:50:54 INFO Started ProjectApplication in 29.135 seconds (JVM running for 32.437)
+2020-07-16 18:50:57 ERROR Message logged at ERROR level
+2020-07-16 18:50:57 WARN Message logged at WARN level
+2020-07-16 18:50:57 INFO Message logged at INFO level
+2020-07-16 18:50:57 DEBUG Message logged at DEBUG level
+2020-07-17 01:24:59 INFO Starting ProjectApplication on DESKTOP-R3NF12T with PID 9184 (C:\Users\asus\Desktop\Stage\project\target\classes started by asus in C:\Users\asus\Desktop\Stage\project)
+2020-07-17 01:24:59 DEBUG Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-17 01:24:59 INFO No active profile set, falling back to default profiles: default
+2020-07-17 01:25:06 INFO Started ProjectApplication in 7.845 seconds (JVM running for 8.917)
+2020-07-17 01:25:07 ERROR Message logged at ERROR level
+2020-07-17 01:25:07 WARN Message logged at WARN level
+2020-07-17 01:25:07 INFO Message logged at INFO level
+2020-07-17 01:25:07 DEBUG Message logged at DEBUG level
+17-07-2020 12:26:03 INFO Starting ProjectApplication on DESKTOP-R3NF12T with PID 3252 (C:\Users\asus\Desktop\Stage\project\target\classes started by asus in C:\Users\asus\Desktop\Stage\project)
+17-07-2020 12:26:03 DEBUG Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+17-07-2020 12:26:03 INFO No active profile set, falling back to default profiles: default
+17-07-2020 12:26:09 INFO Started ProjectApplication in 6.794 seconds (JVM running for 7.947)
+17-07-2020 12:26:10 ERROR Message logged at ERROR level
+17-07-2020 12:26:10 WARN Message logged at WARN level
+17-07-2020 12:26:10 INFO Message logged at INFO level
+17-07-2020 12:26:10 DEBUG Message logged at DEBUG level

@@ -1,8 +1,0 @@
-spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=springbootdb
-spring.datasource.username=admin
-spring.datasource.password=370b6a8f
-spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
-spring.jpa.show-sql=true
-spring.jpa.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
-spring.jpa.hibernate.ddl-auto = validate
-spring.datasource.initialize=true

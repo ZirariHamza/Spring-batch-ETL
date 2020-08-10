@@ -1,0 +1,8 @@
+2020-07-16T18:48:32.695+0100 INFO Starting ProjectApplication on DESKTOP-R3NF12T with PID 2408 (C:\Users\asus\Desktop\Stage\project\target\classes started by asus in C:\Users\asus\Desktop\Stage\project)
+2020-07-16T18:48:32.705+0100 DEBUG Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-16T18:48:32.707+0100 INFO No active profile set, falling back to default profiles: default
+2020-07-16T18:48:54.902+0100 INFO Started ProjectApplication in 24.109 seconds (JVM running for 27.747)
+2020-07-16T18:48:56.505+0100 ERROR Message logged at ERROR level
+2020-07-16T18:48:56.507+0100 WARN Message logged at WARN level
+2020-07-16T18:48:56.535+0100 INFO Message logged at INFO level
+2020-07-16T18:48:56.537+0100 DEBUG Message logged at DEBUG level

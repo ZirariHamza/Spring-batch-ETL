@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<property name="PRO_HOME" value="logs" />
+
+	<timestamp key="byDay" datePattern="ddMMyyy" />
+
+	<appender name="FILE-ENGINE-ERROR" class="ch.qos.logback.core.FileAppender">
+		<file>${PRO_HOME}/error.log</file>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+
+	<appender name="FILE-ENGINE" class="ch.qos.logback.core.FileAppender">
+		<file>${PRO_HOME}/log-${byDay}.log</file>
+		<encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+     		<layout class="ch.qos.logback.classic.PatternLayout">
+      		<fileHeader>File Header</fileHeader>
+      		<pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+      	</layout>
+    	</encoder>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{35} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="com.java.project" level="info" additivity="false">
+		<appender-ref ref="FILE-ENGINE" />
+	</logger>
+
+	<logger name="com.java.project" level="error" additivity="false">
+		<appender-ref ref="FILE-ENGINE-ERROR" />
+	</logger>
+
+	<root level="info">
+		<appender-ref ref="FILE-ENGINE" />
+	</root>
+
+</configuration>
