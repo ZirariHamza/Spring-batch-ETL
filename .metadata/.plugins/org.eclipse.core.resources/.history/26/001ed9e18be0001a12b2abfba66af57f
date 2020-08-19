@@ -1,0 +1,58 @@
+package com.java.project.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class employee {
+
+	@Id
+	private Integer eid;
+	private String ename;
+	private String edept;
+	private Integer esalary;
+	
+	public employee() {
+		
+	}
+
+	public Integer getId() {
+		return eid;
+	}
+
+	public void setId(Integer id) {
+		this.eid = id;
+	}
+
+	public String getName() {
+		return ename;
+	}
+
+	public void setName(String name) {
+		this.ename = name;
+	}
+
+	public String getDept() {
+		return edept;
+	}
+
+	public void setDept(String dept) {
+		this.edept = dept;
+	}
+
+	public Integer getSalary() {
+		return esalary;
+	}
+
+	public void setSalary(Integer salary) {
+		this.esalary = salary;
+	}
+
+	@Override
+	public String toString() {
+		return "employee [id=" + eid + ", name=" + ename + ", dept=" + edept + ", salary=" + esalary + "]";
+	}
+	
+	
+	
+}

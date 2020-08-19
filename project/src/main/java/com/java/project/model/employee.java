@@ -16,6 +16,14 @@ public class employee {
 		
 	}
 
+	public employee(Integer id, String name, String dept, Integer salary) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.dept = dept;
+		this.salary = salary;
+	}
+	
 	public Integer getId() {
 		return id;
 	}
@@ -50,7 +58,7 @@ public class employee {
 
 	@Override
 	public String toString() {
-		return "employee [id=" + id + ", name=" + name + ", dept=" + dept + ", salary=" + salary + "]";
+		return id + "," + name + "," + dept + "," + salary;
 	}
 	
 	

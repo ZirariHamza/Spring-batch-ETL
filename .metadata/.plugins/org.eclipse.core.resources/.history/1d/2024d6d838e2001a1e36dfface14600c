@@ -1,0 +1,30 @@
+package com.java.project.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Logs {
+	
+	private String Date;
+	private String line;
+
+	public Logs(String line) {
+		this.Date = Date;
+		this.line = line;
+	}
+
+	public String getLine() {
+		return line;
+	}
+
+	public void setLine(String line) {
+		this.line = line;
+	}
+
+	@Override
+	public String toString() {
+		return "Logs [line=" + line + "]";
+	}
+	
+}

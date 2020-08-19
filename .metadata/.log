@@ -1178,3 +1178,754 @@ java.net.SocketException: Connection reset
 	at org.eclipse.eclemma.internal.core.MemoryExecutionDataSource.readFrom(MemoryExecutionDataSource.java:68)
 	at org.eclipse.eclemma.internal.core.launching.AgentServer.run(AgentServer.java:114)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2020-08-11 17:45:01.468 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-11 17:45:09.800
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-11 17:45:31.356
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-13 13:49:08.682 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-13 13:50:37.974
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-13 13:50:59.732
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-13 16:07:06.524 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-13 16:07:22.358
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-13 16:07:49.226
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-13 18:14:47.288 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-13 18:18:28.623
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-13 18:18:45.691
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-14 14:34:49.597 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-14 14:34:57.652
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-14 14:35:10.346
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-15 17:20:53.718 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-15 17:21:14.104
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-15 17:21:31.606
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-15 19:24:06.659 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-15 19:24:15.126
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-15 19:24:27.540
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-16 17:29:13.359 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-16 17:29:25.766
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-16 17:29:39.927
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-17 02:44:47.387 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-17 02:45:02.038
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-17 02:45:23.279
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.eclemma.core 4 5013 2020-08-17 03:00:16.486
+!MESSAGE Error while dumping coverage data (code 5013).
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.jacoco.core.data.ExecutionDataReader.read(ExecutionDataReader.java:83)
+	at org.eclipse.eclemma.internal.core.MemoryExecutionDataSource.readFrom(MemoryExecutionDataSource.java:68)
+	at org.eclipse.eclemma.internal.core.launching.AgentServer.run(AgentServer.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2020-08-17 14:08:18.323 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-17 14:09:08.058
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-17 14:09:23.953
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-17 17:41:11.418 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-17 17:41:23.514
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-17 17:41:39.651
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-17 22:22:21.838 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-17 22:25:03.993
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-17 22:25:19.178
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-17 22:53:34.792 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-17 22:56:56.442
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-17 22:57:28.314
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:27:57.207
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:31:25.340
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:31:26.247
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:32:31.641
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:32:33.300
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:32:37.085
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:32:38.215
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:32:40.533
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:32:41.544
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:32:42.166
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:32:42.756
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:32:43.280
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:32:54.625
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:32:57.787
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:02.739
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:06.167
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:08.733
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:09.448
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:12.087
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:13.069
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:13.573
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:15.834
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:16.414
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:17.011
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:20.064
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:20.813
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:21.303
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:23.514
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:24.417
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:25.464
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:30.027
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:31.869
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.568
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.580
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.589
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.601
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.616
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.629
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.638
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.648
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.657
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.669
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.681
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.695
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.710
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.726
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.739
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.751
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.765
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.781
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.792
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.803
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.814
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.826
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.833
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.843
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.855
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.866
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.873
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.880
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.888
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.901
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.913
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.925
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.935
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.946
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.954
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.965
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.975
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.986
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:33.996
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.052
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.085
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.103
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.118
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.127
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.136
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.145
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.153
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.169
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.177
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.184
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.193
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.198
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.204
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.212
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.217
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.221
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.230
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.237
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.243
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.248
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.262
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.278
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.284
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.293
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.298
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.302
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.309
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.314
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.318
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.322
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.330
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.335
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.341
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.346
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.352
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.359
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.365
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.372
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.383
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.399
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.417
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.428
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.436
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.446
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.452
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.461
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-17 23:33:34.469
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/WebService_WebService
+
+!ENTRY org.eclipse.core.resources 2 2 2020-08-17 23:37:32.902
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2020-08-17 23:37:32.902
+!MESSAGE The project description file (.project) for 'WebService' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2020-08-18 00:09:47.400 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-18 00:09:54.535
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-18 00:10:06.591
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-18 16:38:53.504 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-18 16:39:23.133
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-18 16:39:51.560
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-08-18 16:47:28.936
+!MESSAGE Launch configuration WebServiceApplication references non-existing project WebService.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration WebServiceApplication references non-existing project WebService.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-08-18 16:47:28.941
+!MESSAGE Launch configuration WebServiceApplication references non-existing project WebService.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-08-18 16:47:28.958
+!MESSAGE Launch configuration WebServiceApplication references non-existing project WebService.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration WebServiceApplication references non-existing project WebService.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-08-18 16:47:28.959
+!MESSAGE Launch configuration WebServiceApplication references non-existing project WebService.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-08-18 16:47:28.970
+!MESSAGE Launch configuration WebServiceApplication references non-existing project WebService.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration WebServiceApplication references non-existing project WebService.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-08-18 16:47:28.970
+!MESSAGE Launch configuration WebServiceApplication references non-existing project WebService.
+!SESSION 2020-08-18 19:59:39.888 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-18 20:00:26.654
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-18 20:01:14.931
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-19 16:47:59.139 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-19 16:48:18.513
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-19 16:48:47.127
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
