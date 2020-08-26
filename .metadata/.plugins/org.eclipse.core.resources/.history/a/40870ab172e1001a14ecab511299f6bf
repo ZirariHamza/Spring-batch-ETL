@@ -1,9 +1,0 @@
-package com.java.project.model;
-
-import javax.persistence.Entity;
-
-@Entity
-public class Logs {
-
-	private String line;
-}

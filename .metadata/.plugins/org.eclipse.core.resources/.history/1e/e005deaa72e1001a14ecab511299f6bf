@@ -1,6 +1,0 @@
-package com.java.project.model;
-
-@Entity
-public class Logs {
-
-}
