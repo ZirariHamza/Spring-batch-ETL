@@ -1,4 +1,4 @@
-package com.java.soap.demo;
+package com.java.soap.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

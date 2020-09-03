@@ -9,11 +9,15 @@
 			<sequence>
 				<element name="ClientLastName" type="string" />
 				<element name="ClientFirstName" type="string" />
-				<element name="ClientBankCode" type="string" />
+				<element name="ClientBankCode" type="tns:bankCode" />
 			</sequence>
 		</complexType>
 	</element>
-	
+	<simpleType name="bankCode">
+		<restriction base="string">
+			<pattern value="[A-Za-z0-9]{6}"></pattern>
+		</restriction>
+	</simpleType>
 	<element name="InsertionResponse">
 		<complexType>
 			<sequence>
