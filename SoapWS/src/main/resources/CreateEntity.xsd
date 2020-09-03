@@ -13,4 +13,12 @@
 			</sequence>
 		</complexType>
 	</element>
+	
+	<element name="InsertionResponse">
+		<complexType>
+			<sequence>
+				<element name="IsCreated" type="boolean"/>
+			</sequence>
+		</complexType>
+	</element>
 </schema>

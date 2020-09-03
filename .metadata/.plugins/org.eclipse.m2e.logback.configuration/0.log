@@ -15010,3 +15010,26 @@ org.eclipse.core.runtime.CoreException: Launch configuration SpringBootSoapWebAp
 2020-09-03 13:03:54,021 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - According to the build context, all of the [dependURIs] are up-to-date.
 2020-09-03 13:03:54,021 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are up-to-date, XJC will be skipped.
 2020-09-03 13:03:54,024 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-03 13:03:54,026 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-03 13:03:54,042 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-03 13:03:54,052 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-03 13:03:54,055 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-03 13:03:54,056 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\asus\Desktop\Stage\project\src\test\resources
+2020-09-03 13:06:27,452 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2020-09-03 13:06:27,473 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-03 13:06:27,473 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-03 13:06:27,473 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-03 13:06:27,477 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-03 13:06:27,478 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\asus\Desktop\Stage\SoapWS\src\test\resources
+2020-09-03 14:21:15,038 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2020-09-03 14:21:15,067 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - analyse dun schéma...
+2020-09-03 14:21:15,160 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - compilation dun schéma...
+2020-09-03 14:21:15,164 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - org\example\createentity\InsertionRequest.java
+2020-09-03 14:21:15,168 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - org\example\createentity\InsertionResponse.java
+2020-09-03 14:21:15,171 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - org\example\createentity\ObjectFactory.java
+2020-09-03 14:21:15,173 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - org\example\createentity\package-info.java
+2020-09-03 14:21:15,179 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-03 14:21:15,179 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-03 14:21:15,180 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-03 14:21:15,187 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-03 14:21:15,188 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\asus\Desktop\Stage\SoapWS\src\test\resources
