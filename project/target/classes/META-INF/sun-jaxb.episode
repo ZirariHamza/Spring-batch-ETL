@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2020.09.03 à 01:03:52 PM WEST 
+
+  -->
+  <bindings xmlns:tns="http://www.example.org/User" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.java.project.soap.api.CreateUser"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:getUserRequest">
+      <class ref="com.java.project.soap.api.CreateUser.GetUserRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:getUserResponse">
+      <class ref="com.java.project.soap.api.CreateUser.GetUserResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:user">
+      <class ref="com.java.project.soap.api.CreateUser.User"/>
+    </bindings>
+  </bindings>
+</bindings>

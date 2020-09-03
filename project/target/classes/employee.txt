@@ -1,7 +1,7 @@
 id,name,dept,salary
 1,Peter,1,12000
 2,Sam,2,13000
-3,Ryan,3,20000
+3,Ryan,3,2000
 4,John,4,50000
 5,John,4.3,50000
 6,Hicham,3,65000

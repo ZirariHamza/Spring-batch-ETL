@@ -63,7 +63,7 @@ public class SpringBatchConfig {
 		flatFileItemReader.setLineMapper(lineMapper());
 		return flatFileItemReader;
 	}
-	
+	 
 	@Bean
 	public LineMapper<employee> lineMapper() {
 		

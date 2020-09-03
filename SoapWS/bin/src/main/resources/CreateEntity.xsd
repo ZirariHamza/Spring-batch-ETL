@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.example.org/CreateEntity" 
+	xmlns:tns="http://www.example.org/CreateEntity" 
+	elementFormDefault="qualified">
+
+	<element name="InsertionRequest">
+		<complexType>
+			<sequence>
+				<element name="ClientLastName" type="string" />
+				<element name="ClientFirstName" type="string" />
+				<element name="ClientBankCode" type="string" />
+			</sequence>
+		</complexType>
+	</element>
+</schema>
