@@ -1,8 +1,8 @@
-id,name,dept,salary
-1,Peter,1,12000
-2,Sam,2,13000
-3,Ryan,3,2000
-4,John,4,50000
-5,John,4.3,50000
-6,Hicham,3,65000
-7,123,fea,1213
+name,dept,salary
+Peter,1,12000
+Sam,2,13000
+Ryan,3,2000
+John,4,50000
+John,4.3,50000
+Hicham,3,65000
+123,fea,1213

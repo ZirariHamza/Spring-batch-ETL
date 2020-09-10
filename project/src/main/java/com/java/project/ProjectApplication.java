@@ -9,23 +9,25 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.java.project.soap.api.CreateUser.GetUserRequest;
-import com.java.project.soap.api.CreateUser.GetUserResponse;
-import com.java.project.soap.api.client.SoapClient;
+import com.java.project.soap.api.CreateUser.InsertionRequest;
+import com.java.project.soap.api.CreateUser.InsertionResponse;
+import com.java.project.soap.client.SoapClient;
+
 
 @SpringBootApplication
 @RestController
 public class ProjectApplication {
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(ProjectApplication.class);
-	
 	@Autowired
 	private SoapClient client;
 	
-	@PostMapping("/getUser")
-	public GetUserResponse invokeSoapGetUser(@RequestBody GetUserRequest request) {
-		return client.getUserResponse(request);
+	@PostMapping("/getInsertStatus")
+	public InsertionResponse invokeSoapClientToGetInsertionStatus(@RequestBody InsertionRequest request) {
+		return client.getCreationStatus(request);
 	}
+	
+	private static final Logger LOGGER = LoggerFactory.getLogger(ProjectApplication.class);
+
 	public static void main(String[] args) {
 		SpringApplication.run(ProjectApplication.class, args);
 		

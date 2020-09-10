@@ -13,15 +13,14 @@ import com.java.soap.api.service.VerificationService;
 @Endpoint
 public class CreationEndPoint {
 
-	private static final String NAMESPACE="http://www.example.org/CreateEntity";
-	
 	@Autowired
 	private VerificationService service;
-	
-	@PayloadRoot(namespace = NAMESPACE, localPart = "InsertionRequest")
+
+	@PayloadRoot(namespace = "http://www.example.org/CreateEntity", localPart = "InsertionRequest")
 	@ResponsePayload
 	public InsertionResponse getResponseStatus(@RequestPayload InsertionRequest request) {
-		System.out.println("You are ine endpoint now");
+		System.out.println("You are in endpoint now");
 		return service.checkInsert(request);
+
 	}
 }

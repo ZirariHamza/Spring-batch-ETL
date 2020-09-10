@@ -20,7 +20,7 @@ public class Processor implements ItemProcessor<employee, employee>{
 	@Autowired
 	private LogRepository logRepository;
 	private int counter = 1;
-	private String re2 = "^(\\d*),[a-zA-Z]*,(\\d*),(\\d{5})$";
+	private String re2 = "^[a-zA-Z]*,(\\d*),(\\d{5})$";
 	
 	@Override
 	public employee process(employee employee){

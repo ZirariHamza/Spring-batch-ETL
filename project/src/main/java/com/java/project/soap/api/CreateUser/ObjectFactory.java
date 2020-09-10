@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2020.09.03 à 01:03:52 PM WEST 
+// Généré le : 2020.09.10 à 01:06:38 PM WEST 
 //
 
 
@@ -37,27 +37,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetUserRequest }
+     * Create an instance of {@link InsertionRequest }
      * 
      */
-    public GetUserRequest createGetUserRequest() {
-        return new GetUserRequest();
+    public InsertionRequest createInsertionRequest() {
+        return new InsertionRequest();
     }
 
     /**
-     * Create an instance of {@link GetUserResponse }
+     * Create an instance of {@link InsertionResponse }
      * 
      */
-    public GetUserResponse createGetUserResponse() {
-        return new GetUserResponse();
-    }
-
-    /**
-     * Create an instance of {@link User }
-     * 
-     */
-    public User createUser() {
-        return new User();
+    public InsertionResponse createInsertionResponse() {
+        return new InsertionResponse();
     }
 
 }

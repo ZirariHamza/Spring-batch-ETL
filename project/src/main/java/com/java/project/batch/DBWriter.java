@@ -21,7 +21,7 @@ public class DBWriter implements ItemWriter<employee>{
 
 	private int counter = 0;
 	private String re1 = "^[a-zA-Z]*,[a-zA-Z]*,[a-zA-Z]*,[a-zA-Z]*$";
-	private String re2 = "^(\\d*),[a-zA-Z]*,(\\d*),(\\d*)$";
+	private String re2 = "^[a-zA-Z]*,(\\d*),(\\d*)$";
 	private String line = "";
 	
 	@Autowired
@@ -44,7 +44,7 @@ public class DBWriter implements ItemWriter<employee>{
 				System.out.println("Header structure matched");
 			}else if(mt2.matches() == true) {
 				String[] part = line.split(",");
-				employee e = new employee(Integer.parseInt(part[0]), part[1], part[2], Integer.parseInt(part[3]));
+				employee e = new employee(part[0], part[1], Integer.parseInt(part[2]));
 				userRepository.save(e);
 				System.out.println("employee : " + e);
 			}

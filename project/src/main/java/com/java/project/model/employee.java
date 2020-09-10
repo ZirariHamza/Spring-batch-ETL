@@ -1,13 +1,16 @@
 package com.java.project.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
 public class employee {
 
 	@Id
-	private Integer id;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	public Long id;
 	private String name;
 	private String dept;
 	private Integer salary;
@@ -16,19 +19,18 @@ public class employee {
 		
 	}
 
-	public employee(Integer id, String name, String dept, Integer salary) {
+	public employee(String name, String dept, Integer salary) {
 		super();
-		this.id = id;
 		this.name = name;
 		this.dept = dept;
 		this.salary = salary;
 	}
 	
-	public Integer getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -58,7 +60,7 @@ public class employee {
 
 	@Override
 	public String toString() {
-		return id + "," + name + "," + dept + "," + salary;
+		return name + "," + dept + "," + salary;
 	}
 	
 	

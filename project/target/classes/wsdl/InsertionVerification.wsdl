@@ -1,0 +1,74 @@
+<wsdl:definitions
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:sch="http://www.example.org/CreateEntity"
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+	xmlns:tns="http://www.example.org/CreateEntity"
+	targetNamespace="http://www.example.org/CreateEntity">
+	<wsdl:types>
+		<schema xmlns="http://www.w3.org/2001/XMLSchema"
+			elementFormDefault="qualified"
+			targetNamespace="http://www.example.org/CreateEntity">
+			<element name="InsertionRequest">
+				<complexType>
+					<sequence>
+						<element name="ClientLastName" type="string" />
+						<element name="ClientFirstName" type="string" />
+						<element name="ClientBankCode" type="tns:bankCode" />
+					</sequence>
+				</complexType>
+			</element>
+			<simpleType name="bankCode">
+				<restriction base="string">
+					<pattern value="[A-Za-z0-9]{6}" />
+				</restriction>
+			</simpleType>
+			<element name="InsertionResponse">
+				<complexType>
+					<sequence>
+						<element name="IsCreated" type="boolean" />
+					</sequence>
+				</complexType>
+			</element>
+		</schema>
+	</wsdl:types>
+	<wsdl:message name="InsertionRequest">
+		<wsdl:part element="tns:InsertionRequest"
+			name="InsertionRequest">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="InsertionResponse">
+		<wsdl:part element="tns:InsertionResponse"
+			name="InsertionResponse">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="CreationEndPoint">
+		<wsdl:operation name="Insertion">
+			<wsdl:input message="tns:InsertionRequest"
+				name="InsertionRequest">
+			</wsdl:input>
+			<wsdl:output message="tns:InsertionResponse"
+				name="InsertionResponse">
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="CreationEndPointSoap11"
+		type="tns:CreationEndPoint">
+		<soap:binding style="document"
+			transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="Insertion">
+			<soap:operation soapAction="" />
+			<wsdl:input name="InsertionRequest">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="InsertionResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="CreationEndPointService">
+		<wsdl:port binding="tns:CreationEndPointSoap11"
+			name="CreationEndPointSoap11">
+			<soap:address location="http://localhost:8080/ws" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>
