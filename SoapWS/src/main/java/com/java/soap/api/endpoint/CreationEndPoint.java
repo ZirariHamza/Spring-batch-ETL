@@ -19,7 +19,6 @@ public class CreationEndPoint {
 	@PayloadRoot(namespace = "http://www.example.org/CreateEntity", localPart = "InsertionRequest")
 	@ResponsePayload
 	public InsertionResponse getResponseStatus(@RequestPayload InsertionRequest request) {
-		System.out.println("You are in endpoint now");
 		return service.checkInsert(request);
 
 	}

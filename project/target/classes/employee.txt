@@ -1,8 +1,0 @@
-name,dept,salary
-Peter,1,12000
-Sam,2,13000
-Ryan,3,2000
-John,4,50000
-John,4.3,50000
-Hicham,3,65000
-123,fea,1213

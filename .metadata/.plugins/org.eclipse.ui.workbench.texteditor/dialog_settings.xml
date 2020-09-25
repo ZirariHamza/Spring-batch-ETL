@@ -8,6 +8,9 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="ItemCount:"/>
+			<item value="item"/>
+			<item value="version"/>
 			<item value="wscompile.bat -gen:client config.xml -keep"/>
 			<item value="jax"/>
 			<item value="test"/>

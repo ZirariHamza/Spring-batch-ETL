@@ -1,13 +1,16 @@
 package com.java.project.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
 public class Logs {
 	
 	@Id
-	private int Id;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long Id;
 	private String Date;
 	private String line;
 
@@ -15,17 +18,16 @@ public class Logs {
 		
 	}
 	
-	public Logs(int id, String date, String line) {
-		this.Id = id;
+	public Logs(String date, String line) {
 		this.Date = date;
 		this.line = line;
 	}
 	
-	public int getId() {
+	public Long getId() {
 		return Id;
 	}
 
-	public void setId(int id) {
+	public void setId(Long id) {
 		Id = id;
 	}
 

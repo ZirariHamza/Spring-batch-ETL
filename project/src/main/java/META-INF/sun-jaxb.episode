@@ -5,18 +5,18 @@
 Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-Généré le : 2020.09.10 à 01:06:38 PM WEST 
+Généré le : 2020.09.25 à 07:34:19 PM WEST 
 
   -->
   <bindings xmlns:tns="http://www.example.org/CreateEntity" if-exists="true" scd="x-schema::tns">
     <schemaBindings map="false">
-      <package name="com.java.project.soap.api.CreateUser"/>
+      <package name="com.java.project.api.CreateUser"/>
     </schemaBindings>
     <bindings if-exists="true" scd="tns:InsertionRequest">
-      <class ref="com.java.project.soap.api.CreateUser.InsertionRequest"/>
+      <class ref="com.java.project.api.CreateUser.InsertionRequest"/>
     </bindings>
     <bindings if-exists="true" scd="tns:InsertionResponse">
-      <class ref="com.java.project.soap.api.CreateUser.InsertionResponse"/>
+      <class ref="com.java.project.api.CreateUser.InsertionResponse"/>
     </bindings>
   </bindings>
 </bindings>

@@ -90,6 +90,16 @@
 			<artifactId>spring-batch-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web-services</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-tomcat</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -110,7 +120,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<generatePackage>com.java.project.soap.api.CreateUser</generatePackage>
+					<generatePackage>com.java.project.api.CreateUser</generatePackage>
 					<generateDirectory>${project.basedir}/src/main/java</generateDirectory>
 					<schemaDirectory>${project.basedir}/src/main/resources/wsdl</schemaDirectory>
 					<schemaIncludes>

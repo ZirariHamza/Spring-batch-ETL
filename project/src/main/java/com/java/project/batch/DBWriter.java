@@ -12,28 +12,25 @@ import org.springframework.batch.item.ItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.java.project.model.employee;
-import com.java.project.repository.LogRepository;
-import com.java.project.repository.UserRepository;
+import com.java.project.model.Client;
+import com.java.project.repository.ClientRepository;
 
 @Component
-public class DBWriter implements ItemWriter<employee>{
+public class DBWriter implements ItemWriter<Client>{
 
-	private int counter = 0;
-	private String re1 = "^[a-zA-Z]*,[a-zA-Z]*,[a-zA-Z]*,[a-zA-Z]*$";
-	private String re2 = "^[a-zA-Z]*,(\\d*),(\\d*)$";
+	private String re1 = "^[a-zA-Z]*,[a-zA-Z]*,[a-zA-Z]*$";
+	private String re2 = "^[a-zA-Z]*,[a-zA-Z]*,[a-zA-Z0-9]{6}$";
 	private String line = "";
 	
 	@Autowired
-	private UserRepository userRepository;
+	private ClientRepository clientRepository;
+	private BufferedReader br;
 	
-	@Autowired
-	private LogRepository logRepository;
 	
 	@Override
-	public void write(List<? extends employee> employees) {
+	public void write(List<? extends Client> Clients) {
 		try{
-			BufferedReader br = new BufferedReader(new FileReader("src/main/resources/employee.txt"));
+			br = new BufferedReader(new FileReader("src/main/resources/Client.csv"));
 
 			Pattern pt1 = Pattern.compile(re1);
 			Pattern pt2 = Pattern.compile(re2);
@@ -44,17 +41,13 @@ public class DBWriter implements ItemWriter<employee>{
 				System.out.println("Header structure matched");
 			}else if(mt2.matches() == true) {
 				String[] part = line.split(",");
-				employee e = new employee(part[0], part[1], Integer.parseInt(part[2]));
-				userRepository.save(e);
-				System.out.println("employee : " + e);
+				Client e = new Client(part[0], part[1], part[2]);
+				clientRepository.save(e);
+				System.out.println("Client : " + e);
 			}
 		}
 		}catch (Exception e) {
 			System.out.println("Error : " + e);
 		}
 	}
-	
-	public void update(ExecutionContext executionContext) throws ItemStreamException {
-        System.out.println("ItemCount: "+executionContext.get("FlatFileItemReader.read.count"));
-    }
 }

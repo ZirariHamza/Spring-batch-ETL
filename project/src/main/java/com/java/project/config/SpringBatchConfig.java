@@ -1,11 +1,5 @@
 package com.java.project.config;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.util.Vector;
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
-
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
@@ -23,27 +17,35 @@ import org.springframework.batch.item.file.transform.DelimitedLineTokenizer;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
-import com.java.project.model.employee;
+import com.java.project.batch.ItemCountListener;
+import com.java.project.batch.ItemCountStream;
+import com.java.project.model.Client;
 
 @Configuration
 @EnableBatchProcessing
 public class SpringBatchConfig {
 	
+	
+	@Value("Client.csv")
+	private String filePath;
+	
 	@Bean
 	public Job job(JobBuilderFactory jobBuilderFactory,
 			StepBuilderFactory stepBuilderFactory,
-			ItemReader<employee> itemReader,
-			ItemProcessor<employee, employee> itemProcessor,
-			ItemWriter<employee> itemWriter
+			ItemReader<Client> itemReader,
+			ItemProcessor<Client, Client> itemProcessor,
+			ItemWriter<Client> itemWriter
 			) {
 		
 		Step step = stepBuilderFactory.get("ETL-file-load")
-				.<employee, employee>chunk(100)
+				.<Client, Client>chunk(100)
 				.reader(itemReader)
 				.processor(itemProcessor)
 				.writer(itemWriter)
+				.listener(listener())
 				.build();
 		
 		
@@ -53,29 +55,33 @@ public class SpringBatchConfig {
 				.build();
 	}
 	
+	@Bean
+	public ItemCountListener listener() {
+	    return new ItemCountListener();
+	}
 	
 	@Bean
-	public FlatFileItemReader<employee> fileItemReader(@Value("employee.txt") Resource resource) {			
-		FlatFileItemReader<employee> flatFileItemReader = new FlatFileItemReader<>();
-		flatFileItemReader.setResource(resource);
-		flatFileItemReader.setName("TXT-Reader");
+	public FlatFileItemReader<Client> fileItemReader() {			
+		FlatFileItemReader<Client> flatFileItemReader = new FlatFileItemReader<>();
+		flatFileItemReader.setResource(new ClassPathResource(filePath));
+		flatFileItemReader.setName("CSV-Reader");
 		flatFileItemReader.setLinesToSkip(1);
 		flatFileItemReader.setLineMapper(lineMapper());
 		return flatFileItemReader;
 	}
 	 
 	@Bean
-	public LineMapper<employee> lineMapper() {
+	public LineMapper<Client> lineMapper() {
 		
-		DefaultLineMapper<employee> defaultLineMapper = new DefaultLineMapper<>();
+		DefaultLineMapper<Client> defaultLineMapper = new DefaultLineMapper<>();
 		DelimitedLineTokenizer lineTokenizer = new DelimitedLineTokenizer();
 		
 		lineTokenizer.setDelimiter(",");
 		lineTokenizer.setStrict(false);
-		lineTokenizer.setNames(new String[] {"name", "dept", "salary"});
+		lineTokenizer.setNames(new String[] {"firstName", "lastName", "bankCode"});
 		
-		BeanWrapperFieldSetMapper<employee> fieldSetMapper = new BeanWrapperFieldSetMapper<>();
-		fieldSetMapper.setTargetType(employee.class);
+		BeanWrapperFieldSetMapper<Client> fieldSetMapper = new BeanWrapperFieldSetMapper<>();
+		fieldSetMapper.setTargetType(Client.class);
 		
 		defaultLineMapper.setLineTokenizer(lineTokenizer);
 		defaultLineMapper.setFieldSetMapper(fieldSetMapper);
