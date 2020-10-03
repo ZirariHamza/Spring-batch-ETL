@@ -14,12 +14,34 @@
 						<element name="ClientLastName" type="string" />
 						<element name="ClientFirstName" type="string" />
 						<element name="ClientBankCode" type="tns:bankCode" />
+						<element name="ClientAccountType" type="tns:accountType" />
+						<element name="ClientAddress" type="string" />
+						<element name="ClientPhoneNumber" type="tns:phoneNumber" />
+						<element name="ClientCountry" type="string" />
+						<element name="ClientCity" type="string" />
+						<element name="ClientEmail" type="tns:email" />
 					</sequence>
 				</complexType>
 			</element>
 			<simpleType name="bankCode">
 				<restriction base="string">
-					<pattern value="[A-Za-z0-9]{6}" />
+					<pattern value="[A-Za-z0-9]{8,11}" />
+				</restriction>
+			</simpleType>
+			<simpleType name="accountType">
+				<restriction base="string">
+					<pattern value="00[1-6^5]" />
+				</restriction>
+			</simpleType>
+			<simpleType name="phoneNumber">
+				<restriction base="string">
+					<pattern value="\+[0-9]{1,3}\\s[0-9]{3,14}" />
+				</restriction>
+			</simpleType>
+			<simpleType name="email">
+				<restriction base="string">
+					<pattern
+						value="([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})" />
 				</restriction>
 			</simpleType>
 			<element name="InsertionResponse">

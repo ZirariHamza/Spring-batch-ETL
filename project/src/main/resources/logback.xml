@@ -26,11 +26,23 @@
 		</encoder>
 	</appender>
 
-	<logger name="com.java.project" level="info">
+	<logger name="com.java.project" level="info" additivity="false">
+		<appender-ref ref="FILE-ENGINE" />
+	</logger>
+	
+	<logger name="com.java.project.config" level="info" additivity="false">
+		<appender-ref ref="FILE-ENGINE" />
+	</logger>
+	
+	<logger name="com.java.project.batch" level="info" additivity="false">
 		<appender-ref ref="FILE-ENGINE" />
 	</logger>
 
 	<logger name="com.java.project" level="error" additivity="false">
+		<appender-ref ref="FILE-ENGINE-ERROR" />
+	</logger>
+	
+	<logger name="com.java.project.batch" level="error" additivity="false">
 		<appender-ref ref="FILE-ENGINE-ERROR" />
 	</logger>
 

@@ -10,20 +10,38 @@ import org.springframework.stereotype.Service;
 @Service
 public class VerificationService {
 
-	private String regex1 = "^[a-zA-Z]*$";
-	private String regex2 = "^[a-zA-Z0-9]{6}$";
+	private String regexAccountType = "00([1-4]|6)";
+	private String regexBankCode = "[a-zA-Z0-9]{8,11}";
+	private String regexPhoneNumber = "\\+[0-9]{1,3}\\s[0-9]{3,14}";
+	private String regexAdresse = "[a-zA-Z0-9]* [a-zA-Z ]*";
+	private String regexCapital = "[A-Z][a-z]*( [A-Z][a-z]*)?";
+	private String regexEmail = "([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})";
 	
 	public InsertionResponse checkInsert(InsertionRequest request) {
 		InsertionResponse response = new InsertionResponse();
 
-		Pattern pt1 = Pattern.compile(regex1);
-		Pattern pt2 = Pattern.compile(regex2);
-		Matcher mt1 = pt1.matcher(request.getClientFirstName());
-		Matcher mt2 = pt1.matcher(request.getClientLastName());
-		Matcher mt3 = pt2.matcher(request.getClientBankCode());
-		if(mt1.matches() == false || mt2.matches() == false || mt3.matches() == false) {
+		Pattern ptAccountType= Pattern.compile(regexAccountType);
+		Pattern ptBankCode = Pattern.compile(regexBankCode);
+		Pattern ptPhoneNumber = Pattern.compile(regexPhoneNumber);
+		Pattern ptCapital = Pattern.compile(regexCapital);
+		Pattern ptEmail = Pattern.compile(regexEmail);
+		Pattern ptAdresse = Pattern.compile(regexAdresse);
+		Matcher mtAccountType = ptAccountType.matcher(request.getClientAccountType());
+		Matcher mtFirstName = ptCapital.matcher(request.getClientFirstName());
+		Matcher mtLastName = ptCapital.matcher(request.getClientLastName());
+		Matcher mtBankCode = ptBankCode.matcher(request.getClientBankCode());
+		Matcher mtPhoneNumber = ptPhoneNumber.matcher(request.getClientPhoneNumber());
+		Matcher mtCountry = ptCapital.matcher(request.getClientCountry());
+		Matcher mtCity = ptCapital.matcher(request.getClientCity());
+		Matcher mtAdresse = ptAdresse.matcher(request.getClientAddress());
+		Matcher mtEmail = ptEmail.matcher(request.getClientEmail());
+		if(mtFirstName.matches() == false || mtLastName.matches() == false || mtAccountType.matches() == false
+				|| mtPhoneNumber.matches() == false || mtBankCode.matches() == false || mtCountry.matches() == false
+				|| mtCity.matches() == false || mtAdresse.matches() == false || mtEmail.matches() == false) {
 			response.setIsCreated(false);
-		}else if(mt1.matches() == true && mt2.matches() == true && mt3.matches() == true) {
+		}else if(mtFirstName.matches() == true && mtLastName.matches() == true && mtAccountType.matches() == true
+				&& mtPhoneNumber.matches() == true && mtBankCode.matches() == true && mtCountry.matches() == true
+				&& mtCity.matches() == true && mtAdresse.matches() == true && mtEmail.matches() == true) {
 			response.setIsCreated(true);
 		}
 		return response;

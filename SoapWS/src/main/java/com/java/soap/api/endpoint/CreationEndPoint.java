@@ -20,6 +20,5 @@ public class CreationEndPoint {
 	@ResponsePayload
 	public InsertionResponse getResponseStatus(@RequestPayload InsertionRequest request) {
 		return service.checkInsert(request);
-
 	}
 }

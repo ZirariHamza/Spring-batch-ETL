@@ -12,8 +12,6 @@ public class ProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProjectApplication.class, args);
-
-		LOGGER.error("Message logged at ERROR level");
 		LOGGER.warn("Message logged at WARN level");
 		LOGGER.info("Message logged at INFO level");
 		LOGGER.debug("Message logged at DEBUG level");

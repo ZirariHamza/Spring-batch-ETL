@@ -18,10 +18,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.Resource;
 
 import com.java.project.batch.ItemCountListener;
-import com.java.project.batch.ItemCountStream;
 import com.java.project.model.Client;
 
 @Configuration
@@ -29,7 +27,7 @@ import com.java.project.model.Client;
 public class SpringBatchConfig {
 	
 	
-	@Value("Client.csv")
+	@Value("Client.txt")
 	private String filePath;
 	
 	@Bean
@@ -61,10 +59,10 @@ public class SpringBatchConfig {
 	}
 	
 	@Bean
-	public FlatFileItemReader<Client> fileItemReader() {			
+	public FlatFileItemReader<Client> fileItemReader() {	
 		FlatFileItemReader<Client> flatFileItemReader = new FlatFileItemReader<>();
 		flatFileItemReader.setResource(new ClassPathResource(filePath));
-		flatFileItemReader.setName("CSV-Reader");
+		flatFileItemReader.setName("CSV-TXT-Reader");
 		flatFileItemReader.setLinesToSkip(1);
 		flatFileItemReader.setLineMapper(lineMapper());
 		return flatFileItemReader;
@@ -72,13 +70,12 @@ public class SpringBatchConfig {
 	 
 	@Bean
 	public LineMapper<Client> lineMapper() {
-		
 		DefaultLineMapper<Client> defaultLineMapper = new DefaultLineMapper<>();
 		DelimitedLineTokenizer lineTokenizer = new DelimitedLineTokenizer();
 		
 		lineTokenizer.setDelimiter(",");
 		lineTokenizer.setStrict(false);
-		lineTokenizer.setNames(new String[] {"firstName", "lastName", "bankCode"});
+		lineTokenizer.setNames(new String[] {"accountType", "firstName", "lastName", "bankCode" , "address", "phoneNumber", "city", "country", "email"});
 		
 		BeanWrapperFieldSetMapper<Client> fieldSetMapper = new BeanWrapperFieldSetMapper<>();
 		fieldSetMapper.setTargetType(Client.class);
